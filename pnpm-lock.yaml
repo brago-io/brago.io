@@ -18,7 +18,7 @@ specifiers:
   eslint-plugin-cypress: ^2.12.1
   https-localhost: ^4.7.1
   markdown-it-link-attributes: ^4.0.1
-  markdown-it-shiki: ^0.6.1
+  markdown-it-shiki: ^0.7.0
   nprogress: ^0.2.0
   pinia: ^2.0.23
   pnpm: ^7.14.2
@@ -70,7 +70,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.27.0
   https-localhost: 4.7.1
   markdown-it-link-attributes: 4.0.1
-  markdown-it-shiki: 0.6.1
+  markdown-it-shiki: 0.7.2
   pnpm: 7.14.2
   shiki: 0.12.1
   taze: 0.8.3
@@ -5927,14 +5927,11 @@ packages:
     resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
     dev: true
 
-  /markdown-it-shiki/0.6.1:
-    resolution: {integrity: sha512-gD8T3QmysRsm09Hz20rGVN8nlmWJ13b4DdqEmrcD69knTwAZhIkCDmMQL/41Tv7T/dSRaTGUP30QPlLnhjw/rQ==}
+  /markdown-it-shiki/0.7.2:
+    resolution: {integrity: sha512-CJucoEMqDg3RJ4R+Oep20Rfsa1MYUebEDxppYyXy4wLmHDktqDd5+7qt51xMnyJkwtIJfmEETjsU7GqBXi5z0g==}
     dependencies:
-      debug: 4.3.4
       shiki: 0.11.1
       synckit: 0.8.4
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /markdown-it/13.0.1:
