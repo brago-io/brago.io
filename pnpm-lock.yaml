@@ -13,7 +13,7 @@ specifiers:
   '@vueuse/head': ^1.0.0
   critters: ^0.0.16
   cross-env: ^7.0.3
-  cypress: ^10.11.0
+  cypress: ^12.0.0
   eslint: ^8.27.0
   eslint-plugin-cypress: ^2.12.1
   https-localhost: ^4.7.1
@@ -65,7 +65,7 @@ devDependencies:
   '@vue/test-utils': 2.2.1_vue@3.2.42
   critters: 0.0.16
   cross-env: 7.0.3
-  cypress: 10.11.0
+  cypress: 12.3.0
   eslint: 8.27.0
   eslint-plugin-cypress: 2.12.1_eslint@8.27.0
   https-localhost: 4.7.1
@@ -3392,9 +3392,9 @@ packages:
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
 
-  /cypress/10.11.0:
-    resolution: {integrity: sha512-lsaE7dprw5DoXM00skni6W5ElVVLGAdRUUdZjX2dYsGjbY/QnpzWZ95Zom1mkGg0hAaO/QVTZoFVS7Jgr/GUPA==}
-    engines: {node: '>=12.0.0'}
+  /cypress/12.3.0:
+    resolution: {integrity: sha512-ZQNebibi6NBt51TRxRMYKeFvIiQZ01t50HSy7z/JMgRVqBUey3cdjog5MYEbzG6Ktti5ckDt1tfcC47lmFwXkw==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -8158,7 +8158,7 @@ packages:
     dev: true
 
   /verror/1.10.0:
-    resolution: {integrity: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=}
+    resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
     engines: {'0': node >=0.6.0}
     dependencies:
       assert-plus: 1.0.0
