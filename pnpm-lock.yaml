@@ -7,7 +7,7 @@ specifiers:
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
   '@unocss/reset': ^0.48.0
-  '@vitejs/plugin-vue': ^3.2.0
+  '@vitejs/plugin-vue': ^4.0.0
   '@vue/test-utils': ^2.2.1
   '@vueuse/core': ^9.5.0
   '@vueuse/head': ^1.0.0
@@ -61,7 +61,7 @@ devDependencies:
   '@intlify/vite-plugin-vue-i18n': 6.0.3_vite@4.0.4+vue-i18n@9.2.2
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
-  '@vitejs/plugin-vue': 3.2.0_vite@4.0.4+vue@3.2.42
+  '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.42
   '@vue/test-utils': 2.2.1_vue@3.2.42
   critters: 0.0.16
   cross-env: 7.0.3
@@ -2459,11 +2459,11 @@ packages:
       - rollup
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.0.4+vue@3.2.42:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+  /@vitejs/plugin-vue/4.0.0_vite@4.0.4+vue@3.2.42:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.4
